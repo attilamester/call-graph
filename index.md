@@ -16,7 +16,7 @@ layout: default
 
 <style>
     div.inner {
-        padding-bottom: 0;
+        padding: 20px 0px;
     }
 
     #logo {
@@ -122,7 +122,7 @@ layout: default
             })
             
             $a.append($img);
-            $(this).append($a);
+            $(this).prepend($a);
         });
 
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
@@ -161,35 +161,40 @@ layout: default
 
 ### Keywords
 
+<div class="inner" style="padding-bottom: 0"></div>
+
 `static call graph`<span class="apostrophe">,</span>
 `n-gram features`<span class="apostrophe">,</span>
 `locality-sensitive hashing`<span class="apostrophe">,</span>
 `malware communities`<span class="apostrophe">,</span> 
 `family clustering`
 
+<div class="inner" style="padding-top: 0"></div>
+
 ### Related work
 
-<div class="inner" data-custom-image data-src="img/research_papers_2.png"></div>
-<div class="caption">
-    <span class="caption">Fig. 1.</span>Prevalent methods and feautures used for malware analysis 
-    (based on <a href="#cite_1"><span class="cite">[1]</span></a>)
+<div class="inner" data-custom-image data-src="img/research_papers_2.png">
+    <div class="caption">
+        <span class="caption">Fig. 1.</span>Prevalent methods and feautures used for malware analysis 
+        (based on <a href="#cite_1"><span class="cite">[1]</span></a>)
+    </div>
 </div>
 
-
-<div class="inner" data-custom-image data-src="img/research_papers_call_graph.png"></div>
-<div class="caption">
-    <span class="caption">Fig. 2.</span>Call graph-based malware analysis
-    (based on <a href="#cite_1"><span class="cite">[1]</span></a>)
+<div class="inner" data-custom-image data-src="img/research_papers_call_graph.png">
+    <div class="caption">
+        <span class="caption">Fig. 2.</span>Call graph-based malware analysis
+        (based on <a href="#cite_1"><span class="cite">[1]</span></a>)
+    </div>
 </div>
-
-
 
 ### Figures
 
-<div class="inner" data-custom-image data-src="img/teaserfigure.png"></div>
-<div class="caption">
-    <span class="caption">Fig. 3.</span>Louvain communities of the common fingerprints-based malware graph
+<div class="inner" data-custom-image data-src="img/teaserfigure.png">
+    <div class="caption">
+        <span class="caption">Fig. 3.</span>Louvain communities of the common fingerprints-based malware graph
+    </div>
 </div>
+
 
 
 <div class="inner row">
@@ -201,10 +206,12 @@ layout: default
     <a data-toggle="lightbox" href="img/b.png" data-gallery="g">
         <img src="img/b.png" class="img-fluid gallery" /></a>
     </div>
+    
+    <div class="caption">
+        <span class="caption">Fig. 4.</span>Call graphs of two samples within the same community, having the same family
+    </div>
 </div>
-<div class="caption">
-    <span class="caption">Fig. 4.</span>Call graphs of two samples within the same community, having the same family
-</div>
+
 
 
 <bibtex src="bib.bib"></bibtex>
