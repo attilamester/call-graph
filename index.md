@@ -15,6 +15,10 @@ layout: default
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
 
 <style>
+    div.inner {
+        padding-bottom: 0;
+    }
+
     #logo {
         height: 100%; 
         border: none; 
@@ -55,13 +59,30 @@ layout: default
         margin-left: 10px;
     }
 
-    div.list-item::before {
+    div.caption {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    div.caption::before {
         color: darkgray;
-        content: '#';
+        content: '•';
         font-weight: bold;
         font-size: 1.5em;
         display: inline-block;
+        margin-right: 5px;
+    }
+    
+    span.caption {
+        font-weight: bold;
+        color: darkgrey;
         margin-right: 10px;
+    }
+    
+    img.gallery {
+        width: 100%;
+        border: none;
+        box-shadow: none;
     }
 </style>
 <script>
@@ -84,7 +105,7 @@ layout: default
         //});
 
         $("[data-custom-image]").each(function() {             
-            let $img = $("<img class='img-fluid' style='width: 100%; border: none; box-shadow: none'/>");
+            let $img = $("<img class='img-fluid gallery'/>");
             $img.attr({
                 src: $(this).data('src')
             });
@@ -107,7 +128,9 @@ layout: default
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
             event.preventDefault();
             $(this).ekkoLightbox({
-                loadingMessage: ""
+                loadingMessage: "",
+                leftArrow: "<span style='color:darkgrey'>❮</span>",
+                rightArrow: "<span style='color:darkgrey'>❯</span>"
             });
         });
     });
@@ -136,27 +159,52 @@ layout: default
 
 </div>
 
+### Keywords
+
+`static call graph`<span class="apostrophe">,</span>
+`n-gram features`<span class="apostrophe">,</span>
+`locality-sensitive hashing`<span class="apostrophe">,</span>
+`malware communities`<span class="apostrophe">,</span> 
+`family clustering`
+
 ### Related work
 
-<div class="list-item">
-    Prevalent methods and feautures used for malware analysis 
-    (based on <a href="#cite_1"><span class="cite">[1]</span></a>)
-</div>
 <div class="inner" data-custom-image data-src="img/research_papers_2.png"></div>
-
-<div class="list-item">
-    Call graph-based malware analysis
+<div class="caption">
+    <span class="caption">Fig. 1.</span>Prevalent methods and feautures used for malware analysis 
     (based on <a href="#cite_1"><span class="cite">[1]</span></a>)
 </div>
+
+
 <div class="inner" data-custom-image data-src="img/research_papers_call_graph.png"></div>
+<div class="caption">
+    <span class="caption">Fig. 2.</span>Call graph-based malware analysis
+    (based on <a href="#cite_1"><span class="cite">[1]</span></a>)
+</div>
+
 
 
 ### Figures
 
-<div class="list-item">
-    Louvain communities of the common fingerprints-based malware graph
-</div>
 <div class="inner" data-custom-image data-src="img/teaserfigure.png"></div>
+<div class="caption">
+    <span class="caption">Fig. 3.</span>Louvain communities of the common fingerprints-based malware graph
+</div>
+
+
+<div class="inner row">
+    <div class="col-md-6">
+    <a data-toggle="lightbox" href="img/a.png" data-gallery="g">
+        <img src="img/a.png" class="img-fluid gallery" /></a>
+    </div>
+    <div class="col-md-6">
+    <a data-toggle="lightbox" href="img/b.png" data-gallery="g">
+        <img src="img/b.png" class="img-fluid gallery" /></a>
+    </div>
+</div>
+<div class="caption">
+    <span class="caption">Fig. 4.</span>Call graphs of two samples within the same community, having the same family
+</div>
 
 
 <bibtex src="bib.bib"></bibtex>
@@ -164,7 +212,7 @@ layout: default
 <div class="bibtex_template"> 
     <div style="display: flex; margin-bottom: 5px">
         <div style="margin-right: 10px; font-family: consolas">
-            [<span class="bibtexVar" extra="BIBTEXKEY" id="cite_+BIBTEXKEY+"><script>console.log(BIBTEXKEY)</script><span class="bibtexkey"></span></span>]
+            [<span class="bibtexVar" extra="BIBTEXKEY" id="cite_+BIBTEXKEY+"><span class="bibtexkey"></span></span>]
         </div>
         <div>
             <div style="font-weight: bold;">
