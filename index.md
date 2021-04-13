@@ -83,17 +83,15 @@ layout: default
         //    new ImageZoom($(this).parent()[0], {width: 500, zoomWidth: 500, zoomPosition: "top"});
         //});
 
-        $("[data-custom-image]").each(function() {
-            let src = `${window.location.protocol}//${window.location.host}/${$(this).data('src')}`;            
-            
+        $("[data-custom-image]").each(function() {             
             let $img = $("<img class='img-fluid' style='width: 100%; border: none; box-shadow: none'/>");
             $img.attr({
-                src: src
+                src: $(this).data('src')
             });
 
             let $a = $("<a data-toggle='lightbox' />");
             $a.attr({
-                href: src
+                href: $(this).data('src')
             });
             
             ["title", "footer", "gallery"].map(key => {
