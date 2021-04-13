@@ -136,19 +136,6 @@ layout: default
     });
 </script>
 
-```
-{
-    "authors": [
-        {
-            "name": "dr. Zalán Bodó"
-        },
-        {
-            "name": "Attila Mester",
-            "supervisor": "dr. Anca-Mirela Andreica"
-        }
-    ]
-}
-```
 
 ### Abstract
 
