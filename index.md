@@ -140,8 +140,8 @@ layout: default
 
 * Submitted to <a href="https://www.esann.org/" target="blank">ESANN 2021</a>
 * Authors:
-    * dr. Zalán Bodó
-    * Attila Mester (supervisor: dr. Anca-Mirela Andreica)
+    * Zalán Bodó
+    * Attila Mester (supervisor: Anca-Mirela Andreica)
   
 ### Abstract
 
