@@ -136,12 +136,29 @@ layout: default
     });
 </script>
 
+### About
 
+* Submitted to <a href="https://www.esann.org/" target="blank">ESANN 2021</a>
+* Authors:
+    * dr. Zalán Bodó
+    * Attila Mester (supervisor: dr. Anca-Mirela Andreica)
+  
 ### Abstract
 
 <div class="inner" style="font-style: italic">
     <span class="apostrophe apostrophe-l">"</span>
-    Due to the increasing number of new malware appearing daily, it is impossible to manually inspect each sample. By applying data mining techniques to detect malicious programs, we can help manual analysis, based on static as well as dynamic features. In this paper we propose a method to extract fingerprints from the executable binary, and evaluate these by applying community detection algorithms on the common fingerprints-based malware graph to identify families. The signatures are extracted via static code analysis, using n-grams obtained from the function call graph and applying locality-sensitive hashing to catch slight variations of the instruction sequences.
+    Due to the increasing number of new malware appearing
+daily, it is impossible to manually inspect each sample. By applying data
+mining techniques to analyze the program code, we can help manual pro-
+cessing. In this paper we propose a method to extract signatures from the
+executable binary of a malware, in order to query the local neighborhood
+in real time. The method is validated by applying community detection
+algorithms on the common fingerprints-based malware graph to identify
+families, and assessing these with evaluation metrics used in the field (e.g.
+modularity, family majority, etc.). The signatures are obtained via static
+code analysis, using function call n-grams and applying locality-sensitive
+hashing techniques to enable the match between functions with highly
+similar instruction lists.
     <span class="apostrophe apostrophe-r">"</span>
 
 </div>
@@ -186,16 +203,16 @@ layout: default
 
 <div class="inner row">
     <div class="col-md-6">
-    <a data-toggle="lightbox" href="img/a.png" data-gallery="g">
-        <img src="img/a.png" class="img-fluid gallery" /></a>
+    <a data-toggle="lightbox" href="img/a_color.png" data-gallery="g" data-title="Sample <b>s1</b>, having ~7600 signatures" data-footer="~380 DLL <b>|</b> ~2800 lib. functions <b>|</b> ~800 subroutines">
+        <img src="img/a_color.png" class="img-fluid gallery" /></a>
     </div>
     <div class="col-md-6">
-    <a data-toggle="lightbox" href="img/b.png" data-gallery="g">
-        <img src="img/b.png" class="img-fluid gallery" /></a>
+    <a data-toggle="lightbox" href="img/b_color.png" data-gallery="g" data-title="Sample <b>s2</b>, having ~6900 signatures" data-footer="Same DLL functions <b>|</b> ~2500 lib. functions (<em>~2300</em> identical with <b>s1</b>) <b>|</b> ~750 subroutines (<em>~730</em> identical with <b>s1</b>)">
+        <img src="img/b_color.png" class="img-fluid gallery" /></a>
     </div>
     
     <div class="caption">
-        <span class="caption">Fig. 4.</span>Call graphs of two samples within the same community, having the same family
+        <span class="caption">Fig. 4.</span>Call graphs of two samples within the same community, having the same family, and <b>~4800</b> common signatures 
     </div>
 </div>
 
