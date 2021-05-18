@@ -203,11 +203,11 @@ similar instruction lists.
 
 <div class="inner row">
     <div class="col-md-6">
-    <a data-toggle="lightbox" href="img/a_color.png" data-gallery="g" data-title="Sample <b>s1</b>, having ~7600 signatures" data-footer="~380 DLL <b>|</b> ~2800 lib. functions <b>|</b> ~800 subroutines">
+    <a data-toggle="lightbox" href="img/a_color.png" data-gallery="g" data-title="Sample <b>s1</b>, having ~7600 signatures" data-footer="<div>~380 DLL <b>|</b> ~2800 lib. functions <b>|</b> ~800 subroutines</div>">
         <img src="img/a_color.png" class="img-fluid gallery" /></a>
     </div>
     <div class="col-md-6">
-    <a data-toggle="lightbox" href="img/b_color.png" data-gallery="g" data-title="Sample <b>s2</b>, having ~6900 signatures" data-footer="Same DLL functions <b>|</b> ~2500 lib. functions (<em>~2300</em> identical with <b>s1</b>) <b>|</b> ~750 subroutines (<em>~730</em> identical with <b>s1</b>)">
+    <a data-toggle="lightbox" href="img/b_color.png" data-gallery="g" data-title="Sample <b>s2</b>, having ~6900 signatures" data-footer="<div>Same DLL functions <b>|</b> ~2500 lib. functions (<em>~2300</em> identical with <b>s1</b>) <b>|</b> ~750 subroutines (<em>~730</em> identical with <b>s1</b>)</div>">
         <img src="img/b_color.png" class="img-fluid gallery" /></a>
     </div>
     
