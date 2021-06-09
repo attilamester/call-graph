@@ -149,8 +149,7 @@ layout: default
     <span class="apostrophe apostrophe-l">"</span>
     Due to the increasing number of new malware appearing
 daily, it is impossible to manually inspect each sample. By applying data
-mining techniques to analyze the program code, we can help manual pro-
-cessing. In this paper we propose a method to extract signatures from the
+mining techniques to analyze the program code, we can help manual processing. In this paper we propose a method to extract signatures from the
 executable binary of a malware, in order to query the local neighborhood
 in real time. The method is validated by applying community detection
 algorithms on the common fingerprints-based malware graph to identify
