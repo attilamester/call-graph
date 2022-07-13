@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Validating static call graph-based malware signatures using community detection methods
 ---
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -14,77 +15,8 @@ layout: default
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
 
-<style>
-    div.inner {
-        padding: 20px 0px;
-    }
+<link rel="stylesheet" href="./style.css" />
 
-    #logo {
-        height: 100%; 
-        border: none; 
-        box-shadow: none;
-        margin: 0;
-    }
-    #logo_container {
-        position: absolute; 
-        top: 0; 
-        right: 30px; 
-        bottom: 0; 
-        margin: auto; 
-        height: 60%;
-    }
-    @media only screen and (max-width: 1000px) {
-        #logo_container {
-            display: none;
-        }
-    }
-
-    span.cite {
-        font-family: consolas;
-    }
-
-    span.apostrophe {
-        color: darkgray;
-        font-weight: bold;
-        font-size: 1.5em;
-        line-height: 1em;
-        display: inline-block;
-    }
-
-    span.apostrophe-l {
-        margin-right: 10px;
-    }
-    
-    span.apostrophe-r {
-        margin-left: 10px;
-    }
-
-    div.caption {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
-    div.caption::before {
-        color: darkgray;
-        content: '•';
-        font-weight: bold;
-        font-size: 1.5em;
-        display: inline-block;
-        margin-right: 5px;
-    }
-    
-    span.caption {
-        font-weight: bold;
-        color: darkgrey;
-        margin-right: 10px;
-    }
-    
-    img.gallery {
-        width: 100%;
-        border: none;
-        box-shadow: none;
-    }
-</style>
 <script>
     $().ready(function() {
         let $container = $("<div id='logo_container'></div>");
@@ -136,9 +68,11 @@ layout: default
     });
 </script>
 
+## <a href="./ieaaie2022.html"> `Latest work`</a>
+
 ### About
 
-* Submitted to <a href="https://www.esann.org/" target="blank">ESANN 2021</a>
+* Presented at <a href="https://www.esann.org/" target="blank">ESANN 2021</a>
 * Authors:
     * Zalán Bodó
     * Attila Mester (supervisor: Anca-Mirela Andreica)

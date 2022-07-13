@@ -1,0 +1,73 @@
+body {
+    background: #212121 !important;
+}
+
+div.inner {
+    padding: 20px 0px;
+}
+
+#logo {
+    height: 100%;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+#logo_container {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    bottom: 0;
+    margin: auto;
+    height: 60%;
+}
+@media only screen and (max-width: 1000px) {
+    #logo_container {
+        display: none;
+    }
+}
+
+span.cite {
+    font-family: consolas;
+}
+
+span.apostrophe {
+    color: darkgray;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1em;
+    display: inline-block;
+}
+
+span.apostrophe-l {
+    margin-right: 10px;
+}
+
+span.apostrophe-r {
+    margin-left: 10px;
+}
+
+div.caption {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+div.caption::before {
+    color: darkgray;
+    content: '•';
+    font-weight: bold;
+    font-size: 1.5em;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+span.caption {
+    font-weight: bold;
+    color: darkgrey;
+    margin-right: 10px;
+}
+
+img.gallery {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+}
