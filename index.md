@@ -68,7 +68,8 @@ title: Validating static call graph-based malware signatures using community det
     });
 </script>
 
-## <a href="./ieaaie2022.html"> `Latest work`</a>
+## <a href="./studia2022.html"> studia2022 `Latest work`</a>
+## <a href="./ieaaie2022.html"> ieaaie2022 </a>
 
 ### About
 
