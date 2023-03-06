@@ -4,7 +4,7 @@ layout: default
 filename: studia2022.md
 ---
 
-<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="../../style.css" />
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
 
