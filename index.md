@@ -1,6 +1,22 @@
 ---
 layout: default
 title: Research work on malware analyis
+subtitle:
+    <br/>
+    Authors
+    <ul>
+        <li>
+            Attila Mester 
+                <a href="https://www.linkedin.com/in/attilamester/"><img src="https://static.licdn.com/sc/h/akt4ae504epesldzj74dzred8" /></a>
+                <a href="https://www.researchgate.net/profile/Attila-Mester-2"><img src="https://c5.rgstatic.net/m/41542880220916/images/favicon/favicon-32x32.png" /></a>
+        </li>
+        <li>
+            dr. Zalán Bodó 
+                <a href="http://www.cs.ubbcluj.ro/~zbodo"><img src="https://www.ubbcluj.ro/template/favicon-32x32.png" /></a>                
+                <a href="https://www.linkedin.com/in/zal%C3%A1n-bod%C3%B3-66b915b9/"><img src="https://static.licdn.com/sc/h/akt4ae504epesldzj74dzred8" /></a>
+                <a href="https://www.researchgate.net/profile/Zalan-Bodo"><img src="https://c5.rgstatic.net/m/41542880220916/images/favicon/favicon-32x32.png" /></a>
+        </li>
+    </ul>
 ---
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -15,12 +31,13 @@ title: Research work on malware analyis
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
 
+<link rel="stylesheet" href="./style.css" />
 <style>
 #project_title {
 font-size: 2em;
 }
-body {
-    background: #212121 !important;
+#project_subtitle {
+font-size: 1.5em;
 }
 
 #main_content_wrap > section {
