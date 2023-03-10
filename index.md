@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Research work on malware analyis
+home: true
 subtitle:
     <br/>
     Authors
