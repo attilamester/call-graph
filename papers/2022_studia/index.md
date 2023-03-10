@@ -26,7 +26,7 @@ all of these motivate the prevalence of the feature. Processing and storing the 
 malicious samples in a scaled manner facilitates the application of complex network analysis in malware research. 
 IDA Pro is one of the leading disassembler tools in the industry <a href="#cite_1"><span class="cite">[1]</span></a>, <a href="#cite_2"><span class="cite">[2]</span></a> which offers the generation 
 of the call graph via `GenCallGdl` and `GenFuncGdl` APIs -- a tool which we used in our 
-previous works <a href="#cite_3"><span class="cite">[3]</span></a>, <a href="#cite_4"><span class="cite">[4]</span></a>}.
+previous works <a href="#cite_3"><span class="cite">[3]</span></a>, <a href="#cite_4"><span class="cite">[4]</span></a>.
 In this paper we offer an alternative analysis using another disassembler tool, <a href="https://github.com/radareorg/radare2" target="_blank">Radare2</a>, 
 an open-source Unix-based software, which is also frequently used in this 
 domain 
