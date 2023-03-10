@@ -32,7 +32,7 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
           {% unless page.home == true %}
-            <a id="backtohome" href="/{{ site.baseurl }}"></a>
+            <a id="backtohome" href="{{ site.url }}{{ site.baseurl }}"></a>
           {% endunless %}
 
           {% if site.github.is_project_page %}
