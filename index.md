@@ -49,11 +49,24 @@ font-size: 1.5em;
     align-items: flex-start;
     flex-wrap: wrap;
 }
+@media (max-width: 600px) {
+    .card-container {
+        flex-direction: column;
+    }
+    .card {
+        width: 100% !important;
+        margin: 8px 0px !important;
+    }
+}
 
 .card {
     position: relative;
     width: 250px;
     margin: 8px;
+}
+
+.card img {
+    box-shadow: none;
 }
 
 .card .card-title {
@@ -87,6 +100,7 @@ font-size: 1.5em;
 </div>
 
 <div class="card">
+  <img class="card-img-top" src="./papers/2022_ieaaie/img/GCN-LSH.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Malware classification based on graph convolutional neural networks and static call graph features</h5>
     <p class="card-text">IEA/AIE, 2022</p>
@@ -95,6 +109,7 @@ font-size: 1.5em;
 </div>
 
 <div class="card">
+  <img class="card-img-top" src="./papers/2022_studia/img/r2.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Malware analysis and static call graph generation with Radare2</h5>
     <p class="card-text" style="color:grey; font-style: italic"># in review</p>
