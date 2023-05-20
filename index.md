@@ -113,7 +113,10 @@ font-size: 1.5em;
   <img class="card-img-top" src="./papers/2022_studia/img/r2.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Malware analysis and static call graph generation with Radare2</h5>
-    <p class="card-text" style="color:grey; font-style: italic"># in review</p>
+    <p class="card-text" style="color:grey; font-style: italic">
+        # peer review: accepted <br/>
+        # publication pending
+    </p>
     <p class="card-highlight">
         <span>Latest work</span>
     </p>
