@@ -13,7 +13,7 @@ filename: studia2022.md
 
 ### About
 
-* submitted to <a href="http://www.cs.ubbcluj.ro/~studia-i/journal/journal" target="blank">Studia Universitatis Babeș-Bolyai Informatica 2022</a>
+* published at <a href="http://www.cs.ubbcluj.ro/~studia-i/journal/journal" target="blank">Studia Universitatis Babeș-Bolyai Informatica 2022</a>
 
 ### Abstract
 
