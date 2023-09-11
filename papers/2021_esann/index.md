@@ -74,6 +74,7 @@ title: Validating static call graph-based malware signatures using community det
 * Authors:
     * Zalán Bodó
     * Attila Mester (supervisor: Anca-Mirela Andreica)
+* <a href="./img/poster.png" target="_blank">Poster spotlight</a>
   
 ### Abstract
 
