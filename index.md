@@ -123,15 +123,13 @@ font-size: 1.5em;
 <div class="card">
   <img class="card-img-top" src="./papers/2024_nss/img/ainslot.png" alt="Card image cap" height="120">
   <div class="card-body">
-    <h5 class="card-title"> ~ submitted to review (2024) ~ </h5>
-    <p class="card-text"> 
-        - malware family classification </p>
-    <p class="card-text">
-        - call graph instruction images
-    </p>
+    <h5 class="card-title">Towards a malware family classification model
+using static call graph instruction visualization</h5>
+    <p class="card-text">NSS, 2024</p>
     <p class="card-highlight">
         <span>Latest work</span>
     </p>
+    <a href="papers/2024_nss" class="btn btn-primary">View</a>
   </div>
 </div>
 
