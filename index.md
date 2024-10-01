@@ -42,7 +42,7 @@ font-size: 1.5em;
 }
 
 #main_content_wrap > section {
-    max-width: 900px;
+    max-width: 1090px;
 }
 
 .card-container {
@@ -132,6 +132,24 @@ using static call graph instruction visualization</h5>
     <a href="papers/2024_nss" class="btn btn-primary">View</a>
   </div>
 </div>
+
+</div>
+
+
+<h3>Auxiliary research</h3>
+
+<div class="card-container">
+
+
+<div class="card">
+  <img class="card-img-top" src="./papers/2021_mdpi/img/fb-pol-louvain.png" alt="Card image cap" height="160">
+  <div class="card-body">
+    <h5 class="card-title">Network Analysis Based on Important Node Selection and Community Detection</h5>
+    <p class="card-text">MDPI mathematics, 2021</p>
+  </div>
+</div>
+
+
 
 
 </div>
