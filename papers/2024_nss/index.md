@@ -5,15 +5,54 @@ layout: default
 
 <link rel="stylesheet" href="../../style.css" />
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+
+<script>
+    $().ready(function() {
+        $("[data-custom-image]").each(function() {             
+            let $img = $("<img class='img-fluid gallery'/>");
+            $img.attr({
+                src: $(this).data('src')
+            });
+
+            let $a = $("<a data-toggle='lightbox' />");
+            $a.attr({
+                href: $(this).data('src')
+            });
+            
+            ["title", "footer", "gallery"].map(key => {
+                if (key in $(this).data()) {
+                    $a.data(key, $(this).data(key));
+                }
+            })
+            
+            $a.append($img);
+            $(this).prepend($a);
+        });
+
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox({
+                loadingMessage: "",
+                leftArrow: "<span style='color:darkgrey'>❮</span>",
+                rightArrow: "<span style='color:darkgrey'>❯</span>"
+            });
+        });
+    });
+</script>
+
+
 ### About
 
-* presented at <a href="https://nsclab.org/nss-socialsec2024/" target="blank">NSS 2024</a>
-* <a href="./nss.pdf" target="_blank">slides</a>
+* Presented at <a href="https://nsclab.org/nss-socialsec2024/" target="blank">NSS 2024</a>
+* <a href="./nss.pdf" target="_blank">Slides</a>
 
 ### Authors
 
@@ -67,3 +106,42 @@ offering no explainability over the decision.
 ### Dataset
 
 * published on Kaggle: [https://www.kaggle.com/datasets/amester/malflow](https://www.kaggle.com/datasets/amester/malflow)
+
+
+### Figures
+
+<div class="inner" data-custom-image data-src="img/flow.png">
+    <div class="caption">
+        <span class="caption">Fig. 1.</span>Outline of the project: static call graph instruction image generation and family classification using CNNs
+    </div>
+</div>
+
+<div class="inner row">
+    <div class="col-md-6">
+    <a data-toggle="lightbox" href="img/ainslot.png" data-gallery="g">
+        <img src="img/ainslot.png" class="img-fluid gallery" /></a>
+    </div>
+    <div class="col-md-6">
+    <a data-toggle="lightbox" href="img/ainslot_2.png" data-gallery="g">
+        <img src="img/ainslot_2.png" class="img-fluid gallery" /></a>
+    </div>
+    
+    <div class="caption">
+        <span class="caption">Fig. 2.</span>Two samples from <b>ainslot</b> family, visualized by encoding their static call graph instructions 
+    </div>
+</div>
+
+<div class="inner row">
+    <div class="col-md-6">
+    <a data-toggle="lightbox" href="img/allaple_1.png" data-gallery="g">
+        <img src="img/allaple_1.png" class="img-fluid gallery" /></a>
+    </div>
+    <div class="col-md-6">
+    <a data-toggle="lightbox" href="img/allaple_2.png" data-gallery="g">
+        <img src="img/allaple_2.png" class="img-fluid gallery" /></a>
+    </div>
+    
+    <div class="caption">
+        <span class="caption">Fig. 3.</span>Two samples from <b>allaple</b> family, visualized by encoding their static call graph instructions 
+    </div>
+</div>

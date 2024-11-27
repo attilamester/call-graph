@@ -68,6 +68,7 @@ font-size: 1.5em;
 
 .card img {
     box-shadow: none;
+    margin: 0;
 }
 
 .card .card-title {
@@ -121,7 +122,17 @@ font-size: 1.5em;
 </div>
 
 <div class="card">
-  <img class="card-img-top" src="./papers/2024_nss/img/ainslot.png" alt="Card image cap" height="120">
+<div style="display: flex">
+<div>
+  <img class="card-img-top" src="./papers/2024_nss/img/ainslot.png" alt="Card image cap">
+  <img class="card-img-top" src="./papers/2024_nss/img/ainslot_gray.png" alt="Card image cap">
+</div>
+<div>
+  <img class="card-img-top" src="./papers/2024_nss/img/ainslot_pe1.png" alt="Card image cap">
+  <img class="card-img-top" src="./papers/2024_nss/img/ainslot_pe2.png" alt="Card image cap">
+</div>
+</div>
+
   <div class="card-body">
     <h5 class="card-title">Towards a malware family classification model
 using static call graph instruction visualization</h5>
@@ -148,8 +159,6 @@ using static call graph instruction visualization</h5>
     <p class="card-text">MDPI mathematics, 2021</p>
   </div>
 </div>
-
-
 
 
 </div>
