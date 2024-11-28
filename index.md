@@ -96,7 +96,8 @@ font-size: 1.5em;
   <img class="card-img-top" src="./papers/2021_esann/img/teaserfigure.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Validating static call graph-based malware signatures using community detection methods</h5>
-    <p class="card-text">ESANN, 2021</p>
+    <p class="card-text"><a href="https://www.esann.org/esann21programme" target="blank">ESANN, 2021</a></p>
+    <p class="card-text"><a href="https://www.esann.org/sites/default/files/proceedings/2021/ES2021-27.pdf" target="blank">Paper</a></p>
     <a href="papers/2021_esann" class="btn btn-primary">View</a>
   </div>
 </div>
@@ -105,7 +106,8 @@ font-size: 1.5em;
   <img class="card-img-top" src="./papers/2022_ieaaie/img/GCN-LSH.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Malware classification based on graph convolutional neural networks and static call graph features</h5>
-    <p class="card-text">IEA/AIE, 2022</p>
+    <p class="card-text"><a href="https://ieaaie2022.wordpress.com/" target="blank">IEA/AIE, 2022</a></p>
+    <p class="card-text"><a href="https://link.springer.com/chapter/10.1007/978-3-031-08530-7_45">Paper</a></p>
     <a href="papers/2022_ieaaie" class="btn btn-primary">View</a>
   </div>
 </div>
@@ -115,8 +117,11 @@ font-size: 1.5em;
   <div class="card-body">
     <h5 class="card-title">Malware analysis and static call graph generation with Radare2</h5>
     <p class="card-text">
+        <a href="https://www.cs.ubbcluj.ro/~studia-i/journal/journal/article/view/85" target="blank">
         Studia Universitatis Informatica, 2023
+        </a>
     </p>
+    <p class="card-text"><a href="https://www.cs.ubbcluj.ro/~studia-i/journal/journal/article/view/85/85">Paper</a></p>
     <a href="papers/2022_studia" class="btn btn-primary">View</a>
   </div>
 </div>
@@ -156,7 +161,11 @@ using static call graph instruction visualization</h5>
   <img class="card-img-top" src="./papers/2021_mdpi/img/fb-pol-louvain.png" alt="Card image cap" height="160">
   <div class="card-body">
     <h5 class="card-title">Network Analysis Based on Important Node Selection and Community Detection</h5>
-    <p class="card-text">MDPI mathematics, 2021</p>
+    <p class="card-text">
+        <a href="https://www.mdpi.com/2227-7390/9/18/2294" target="blank">
+        MDPI mathematics, 2021
+        </a>
+    </p>
   </div>
 </div>
 
