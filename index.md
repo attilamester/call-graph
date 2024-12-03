@@ -27,6 +27,7 @@ subtitle:
 -->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
@@ -97,8 +98,8 @@ font-size: 1.5em;
   <div class="card-body">
     <h5 class="card-title">Validating static call graph-based malware signatures using community detection methods</h5>
     <p class="card-text"><a href="https://www.esann.org/esann21programme" target="blank">ESANN, 2021</a></p>
-    <p class="card-text"><a href="https://www.esann.org/sites/default/files/proceedings/2021/ES2021-27.pdf" target="blank">Paper</a></p>
     <a href="papers/2021_esann" class="btn btn-primary">View</a>
+    <a href="https://www.esann.org/sites/default/files/proceedings/2021/ES2021-27.pdf" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
   </div>
 </div>
 
@@ -107,8 +108,8 @@ font-size: 1.5em;
   <div class="card-body">
     <h5 class="card-title">Malware classification based on graph convolutional neural networks and static call graph features</h5>
     <p class="card-text"><a href="https://ieaaie2022.wordpress.com/" target="blank">IEA/AIE, 2022</a></p>
-    <p class="card-text"><a href="https://link.springer.com/chapter/10.1007/978-3-031-08530-7_45">Paper</a></p>
     <a href="papers/2022_ieaaie" class="btn btn-primary">View</a>
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-08530-7_45"><i class="bi bi-paperclip"></i>Paper</a>
   </div>
 </div>
 
@@ -121,8 +122,9 @@ font-size: 1.5em;
         Studia Universitatis Informatica, 2023
         </a>
     </p>
-    <p class="card-text"><a href="https://www.cs.ubbcluj.ro/~studia-i/journal/journal/article/view/85/85">Paper</a></p>
+    
     <a href="papers/2022_studia" class="btn btn-primary">View</a>
+    <a href="https://www.cs.ubbcluj.ro/~studia-i/journal/journal/article/view/85/85"><i class="bi bi-paperclip"></i>Paper</a>
   </div>
 </div>
 
@@ -141,11 +143,17 @@ font-size: 1.5em;
   <div class="card-body">
     <h5 class="card-title">Towards a malware family classification model
 using static call graph instruction visualization</h5>
-    <p class="card-text">NSS, 2024</p>
+    <p class="card-text">
+        NSS, 2024
+    </p>
     <p class="card-highlight">
         <span>Latest work</span>
     </p>
     <a href="papers/2024_nss" class="btn btn-primary">View</a>
+    <a href="https://github.com/attilamester/malflow" target="_blank">
+        <i class="bi bi-github"></i>
+        malflow
+    </a>
   </div>
 </div>
 

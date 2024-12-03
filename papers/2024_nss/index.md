@@ -53,6 +53,7 @@ layout: default
 
 * Presented at <a href="https://nsclab.org/nss-socialsec2024/" target="blank">NSS 2024</a>
 * <a href="./nss.pdf" target="_blank">Slides</a>
+* GitHub repository: <a href="https://github.com/attilamester/malflow" target="_blank">malflow</a>
 
 ### Authors
 
