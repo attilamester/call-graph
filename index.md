@@ -103,7 +103,7 @@ font-size: 1.5em;
 </div>
 
 <div class="card">
-  <img class="card-img-top" src="./papers/2022_ieaaie/img/GCN-LSH.png" alt="Card image cap">
+  <img class="card-img-top" src="./papers/2022_ieaaie/img/gcn_flow.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Malware classification based on graph convolutional neural networks and static call graph features</h5>
     <p class="card-text"><a href="https://ieaaie2022.wordpress.com/" target="blank">IEA/AIE, 2022</a></p>
