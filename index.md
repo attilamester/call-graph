@@ -109,7 +109,7 @@ font-size: 1.5em;
     <h5 class="card-title">Malware classification based on graph convolutional neural networks and static call graph features</h5>
     <p class="card-text"><a href="https://ieaaie2022.wordpress.com/" target="blank">IEA/AIE, 2022</a></p>
     <a href="papers/2022_ieaaie" class="btn btn-primary">View</a>
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-08530-7_45"><i class="bi bi-paperclip"></i>Paper</a>
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-08530-7_45" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
   </div>
 </div>
 
@@ -124,7 +124,11 @@ font-size: 1.5em;
     </p>
     
     <a href="papers/2022_studia" class="btn btn-primary">View</a>
-    <a href="https://www.cs.ubbcluj.ro/~studia-i/journal/journal/article/view/85/85"><i class="bi bi-paperclip"></i>Paper</a>
+    <a href="https://www.cs.ubbcluj.ro/~studia-i/journal/journal/article/view/85/85" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
+    <a href="https://www.kaggle.com/competitions/malware-detection/data" target="_blank" class="btn">
+        <i class="bi bi-file-earmark-fill"></i>
+        Kaggle dataset
+    </a>
   </div>
 </div>
 
@@ -144,16 +148,24 @@ font-size: 1.5em;
     <h5 class="card-title">Towards a malware family classification model
 using static call graph instruction visualization</h5>
     <p class="card-text">
+        <a href="https://nsclab.org/nss-socialsec2024/papers.html" target="blank">
         NSS, 2024
+        </a>
     </p>
     <p class="card-highlight">
         <span>Latest work</span>
     </p>
     <a href="papers/2024_nss" class="btn btn-primary">View</a>
-    <a href="https://github.com/attilamester/malflow" target="_blank">
-        <i class="bi bi-github"></i>
+    <a href="https://link.springer.com/chapter/10.1007/978-981-96-3531-3_9" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
+    <div>
+    <a href="https://github.com/attilamester/malflow" target="_blank" class="btn"><i class="bi bi-github"></i>
         malflow
     </a>
+    <a href="https://www.kaggle.com/datasets/amester/malflow" target="_blank" class="btn">
+        <i class="bi bi-file-earmark-fill"></i>
+        Kaggle dataset
+    </a>
+    </div>
   </div>
 </div>
 
@@ -170,9 +182,7 @@ using static call graph instruction visualization</h5>
   <div class="card-body">
     <h5 class="card-title">Network Analysis Based on Important Node Selection and Community Detection</h5>
     <p class="card-text">
-        <a href="https://www.mdpi.com/2227-7390/9/18/2294" target="blank">
-        MDPI mathematics, 2021
-        </a>
+        <a href="https://www.mdpi.com/2227-7390/9/18/2294" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
     </p>
   </div>
 </div>
