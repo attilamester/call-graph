@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 # Google Analytics
 google_analytics: G-9BTS4G6VV4
+plugins:
+  - jekyll-last-modified-at

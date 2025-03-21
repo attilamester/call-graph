@@ -19,6 +19,9 @@
               background: url("{{ site.baseurl }}/assets/images/icon-home.png") no-repeat 50% 50%;
               background-size: 90%;
               border: 3px solid white; border-radius: 50%; }
+
+    #lastmod { display: block; position: absolute; bottom: 10px; left: 10px; z-index: 10;
+              color: gray; font-size: 0.9em; font-weight: bold; font-family: Courier New; }
     </style>
 
 
@@ -57,6 +60,8 @@
               <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
             </section>
           {% endif %}
+
+          <div id="lastmod">Updated: {{ page.last_modified_at | date: '%Y. %B %d.' }}</div>
         </header>
     </div>
 
