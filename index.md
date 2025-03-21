@@ -172,7 +172,7 @@ using static call graph instruction visualization</h5>
 </div>
 
 
-<h3>Auxiliary research</h3>
+<h3>Other</h3>
 
 <div class="card-container">
 
@@ -189,6 +189,28 @@ using static call graph instruction visualization</h5>
     <a href="https://www.mdpi.com/2227-7390/9/18/2294" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
   </div>
 </div>
+
+<div class="card">
+  <div style="overflow: hidden; margin: 5px;">
+  <img class="card-img-top" src="https://www.2022.itdays.ro/images/imgs7_2022.png" alt="Card image cap" height="160"
+    style="object-fit: cover; object-position: 4% -22px; scale: 1.5;">   
+  </div>
+
+  <div class="card-body">
+    <h5 class="card-title">IT Days 2022</h5>
+    <a href="https://www.2022.itdays.ro/presentation/Research-and-Academic-Initiatives-in-Cyber-Security-at-Babe%C8%99-Bolyai-University" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
+  </div>
+</div>
+
+<!--
+<div class="card">
+  <img class="card-img-top" src="./assets/images/phd_cover.png" alt="Card image cap" height="160">
+  <div class="card-body">
+    <h5 class="card-title">PhD defense 2025</h5>
+  </div>
+</div>
+-->
+
 
 
 </div>
