@@ -182,8 +182,11 @@ using static call graph instruction visualization</h5>
   <div class="card-body">
     <h5 class="card-title">Network Analysis Based on Important Node Selection and Community Detection</h5>
     <p class="card-text">
-        <a href="https://www.mdpi.com/2227-7390/9/18/2294" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
+         <a href="https://www.mdpi.com/2227-7390/9/18/2294" target="blank">
+        MDPI Mathematics, 2021
+        </a>
     </p>
+    <a href="https://www.mdpi.com/2227-7390/9/18/2294" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
   </div>
 </div>
 
