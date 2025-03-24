@@ -93,6 +93,7 @@ font-size: 1.5em;
 
 <div class="card-container">
 
+<div class="column">
 <div class="card">
   <img class="card-img-top" src="./papers/2021_esann/img/teaserfigure.png" alt="Card image cap">
   <div class="card-body">
@@ -102,7 +103,9 @@ font-size: 1.5em;
     <a href="https://www.esann.org/sites/default/files/proceedings/2021/ES2021-27.pdf" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
   </div>
 </div>
+</div>
 
+<div class="column">
 <div class="card">
   <img class="card-img-top" src="./papers/2022_ieaaie/img/gcn_flow.png" alt="Card image cap">
   <div class="card-body">
@@ -112,7 +115,9 @@ font-size: 1.5em;
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-08530-7_45" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
   </div>
 </div>
+</div>
 
+<div class="column">
 <div class="card">
   <img class="card-img-top" src="./papers/2022_studia/img/r2.png" alt="Card image cap">
   <div class="card-body">
@@ -131,7 +136,9 @@ font-size: 1.5em;
     </a>
   </div>
 </div>
+</div>
 
+<div class="column">
 <div class="card">
 <div style="display: flex">
 <div>
@@ -168,6 +175,7 @@ using static call graph instruction visualization</h5>
     </div>
   </div>
 </div>
+</div>
 
 </div>
 
@@ -176,7 +184,7 @@ using static call graph instruction visualization</h5>
 
 <div class="card-container">
 
-
+<div class="column">
 <div class="card">
   <img class="card-img-top" src="./papers/2021_mdpi/img/fb-pol-louvain.png" alt="Card image cap" height="160">
   <div class="card-body">
@@ -189,7 +197,9 @@ using static call graph instruction visualization</h5>
     <a href="https://www.mdpi.com/2227-7390/9/18/2294" target="blank"><i class="bi bi-paperclip"></i>Paper</a>
   </div>
 </div>
+</div>
 
+<div class="column">
 <div class="card">
   <div style="overflow: hidden; margin: 5px;">
   <img class="card-img-top" src="https://www.2022.itdays.ro/images/imgs7_2022.png" alt="Card image cap" height="160"
@@ -201,7 +211,9 @@ using static call graph instruction visualization</h5>
     <a href="https://www.2022.itdays.ro/presentation/Research-and-Academic-Initiatives-in-Cyber-Security-at-Babe%C8%99-Bolyai-University" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
   </div>
 </div>
+</div>
 
+<div class="column">
 <div class="card">
   <img class="card-img-top" src="./assets/images/phd_cover.png" alt="Card image cap" height="160">
   <div class="card-body">
@@ -210,6 +222,7 @@ using static call graph instruction visualization</h5>
         Slides coming.
     </p>
   </div>
+</div>
 </div>
 
 
