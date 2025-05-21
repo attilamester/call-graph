@@ -215,6 +215,24 @@ using static call graph instruction visualization</h5>
 
 <div class="column">
 <div class="card">
+  <img class="card-img-top" src="./papers/2025_studia/img/cover.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Network optimization problem applicable for breast cancer screening cost minimization</h5>
+    <p class="card-text">
+        <a href="https://www.cs.ubbcluj.ro/~studia-i/journal/journal/article/view/105" target="blank">
+        Studia Universitatis Informatica, 2025
+        </a>
+    </p>
+
+    <a href="https://www.cs.ubbcluj.ro/~studia-i/journal/journal/article/view/105/104" target="blank">
+        <i class="bi bi-paperclip"></i>Paper
+    </a>
+  </div>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
   <img class="card-img-top" src="./assets/images/phd_cover.png" alt="Card image cap" height="160">
   <div class="card-body">
     <h5 class="card-title">PhD defense 2025</h5>
