@@ -177,10 +177,22 @@ using static call graph instruction visualization</h5>
 </div>
 </div>
 
+<div class="column">
+<div class="card">
+  <img class="card-img-top" src="./assets/images/phd_cover.png" alt="Card image cap" height="160">
+  <div class="card-body">
+    <h5 class="card-title">PhD defense 2025</h5>
+    <p class="card-text">
+        Slides coming.
+    </p>
+  </div>
+</div>
+</div>
+
 </div>
 
 
-<h3>Other</h3>
+<h3>Additional research</h3>
 
 <div class="card-container">
 
@@ -199,19 +211,7 @@ using static call graph instruction visualization</h5>
 </div>
 </div>
 
-<div class="column">
-<div class="card">
-  <div style="overflow: hidden; margin: 5px;">
-  <img class="card-img-top" src="https://www.2022.itdays.ro/images/imgs7_2022.png" alt="Card image cap" height="160"
-    style="object-fit: cover; object-position: 4% -22px; scale: 1.5;">   
-  </div>
 
-  <div class="card-body">
-    <h5 class="card-title">IT Days 2022</h5>
-    <a href="https://www.2022.itdays.ro/presentation/Research-and-Academic-Initiatives-in-Cyber-Security-at-Babe%C8%99-Bolyai-University" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
-  </div>
-</div>
-</div>
 
 <div class="column">
 <div class="card">
@@ -231,17 +231,112 @@ using static call graph instruction visualization</h5>
 </div>
 </div>
 
-<div class="column">
-<div class="card">
-  <img class="card-img-top" src="./assets/images/phd_cover.png" alt="Card image cap" height="160">
-  <div class="card-body">
-    <h5 class="card-title">PhD defense 2025</h5>
-    <p class="card-text">
-        Slides coming.
-    </p>
-  </div>
+
 </div>
-</div>
+
+
+<h3>Presentations</h3>
+
+<div class="card-container">
+
+    <div class="column">
+    <div class="card">
+      <div style="overflow: hidden; margin: 5px;">
+      <img class="card-img-top" src="https://ieaaie2022.wordpress.com/wp-content/uploads/2021/06/2560px-night_views_from_mount_sarakura_20170527-8.jpeg" alt="Card image cap" height="160"
+        style="object-fit: cover; object-position: 4% -22px; scale: 1.5;">   
+      </div>
+    
+      <div class="card-body">
+        <h5 class="card-title">IEA/AIE, Kitakyushu, Japan | July 2022</h5>
+        <a href="https://ieaaie2022.wordpress.com/conference-program/" target="blank"><i class="bi bi-paperclip"></i>Session Chair & Speaker</a>
+        <br/>   
+        "Malware classification based on graph convolutional neural networks and static call graph features"
+      </div>
+    </div>
+    </div>
+
+
+    <div class="column">
+    <div class="card">
+      <div style="overflow: hidden; margin: 5px;">
+      <img class="card-img-top" src="https://www.2022.itdays.ro/images/imgs7_2022.png" alt="Card image cap" height="160"
+        style="object-fit: cover; object-position: 4% -22px; scale: 1.5;">   
+      </div>
+    
+      <div class="card-body">
+        <h5 class="card-title">IT Days | November 2022</h5>
+        <a href="https://www.2022.itdays.ro/presentation/Research-and-Academic-Initiatives-in-Cyber-Security-at-Babe%C8%99-Bolyai-University" target="blank"><i class="bi bi-paperclip"></i>Joint Speaker</a>
+        <br/>   
+        "Research and Academic Initiatives in Cyber Security at Babeș-Bolyai University"
+      </div>
+    </div>
+    </div>
+
+    <div class="column">
+    <div class="card">
+        <div style="overflow: hidden; margin: 5px;">
+        <img class="card-img-top" src="https://www.cs.ubbcluj.ro/~macs/2022/img/macs2022.png" alt="Card image cap" height="160">
+        </div>
+
+        <div class="card-body">
+            <h5 class="card-title">
+            14th Joint Conference on Mathematics and Computer Science | November 2022
+            </h5>
+            <a href="https://www.cs.ubbcluj.ro/~macs/2022/" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
+            <br/>
+            "Malware analysis and static call graph generation with Radare2"
+        </div>
+    </div>
+    </div>
+
+    <div class="column">
+    <div class="card">
+        <div style="overflow: hidden; margin: 5px;">
+        <img class="card-img-top" src="https://www.cs.ubbcluj.ro/~macs/2022/img/macs2022.png" alt="Card image cap" height="160">
+        </div>
+
+        <div class="card-body">
+            <h5 class="card-title">
+            14th Joint Conference on Mathematics and Computer Science | November 2022
+            </h5>
+            <a href="https://www.cs.ubbcluj.ro/~macs/2022/" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
+            <br/>
+            "Network optimization problem applicable for breast cancer screening cost minimization"
+
+        </div>
+    </div>
+    </div>
+
+    <div class="column">
+    <div class="card">
+      <div style="overflow: hidden; margin: 5px;">
+      <img class="card-img-top" src="https://www.ubbcluj.ro/img/Logo-UBB.svg" alt="Card image cap" height="160">   
+      </div>
+    
+      <div class="card-body">
+        <h5 class="card-title">BIP UBB | May 2024</h5>
+        <a href="https://cci.ubbcluj.ro/erasmus/regulament-de-functionare/" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
+        <br/>   
+        "Community detection, graph convolutional nets, image processing, signature extraction in malware analysis"
+      </div>
+    </div>
+    </div>
+
+    <div class="column">
+    <div class="card">
+      <div style="overflow: hidden; margin: 5px;">
+      <img class="card-img-top" src="https://nsclab.org/nss-socialsec2024/img/ZUAD.png" alt="Card image cap" height="160"
+        style="object-fit: cover; object-position: 4% -22px; scale: 1.5;">   
+      </div>
+    
+      <div class="card-body">
+        <h5 class="card-title">NSS-SocialSec, Abu Dhabi, UAE | November 2024</h5>
+        <a href="https://nsclab.org/nss-socialsec2024/program.html" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
+        <br/>   
+        "Towards a malware family classification model using static call graph instruction visualization"
+      </div>
+    </div>
+    </div>
 
 
 </div>
