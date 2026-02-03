@@ -181,7 +181,7 @@ using static call graph instruction visualization</h5>
 <div class="card">
   <img class="card-img-top" src="./assets/images/phd_cover.png" alt="Card image cap" height="160">
   <div class="card-body">
-    <h5 class="card-title">PhD defense 2025</h5>
+    <h5 class="card-title">PhD defense, Sept. 2025</h5>
     <p class="card-text">
         Slides coming.
     </p>
