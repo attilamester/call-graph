@@ -181,9 +181,9 @@ using static call graph instruction visualization</h5>
 <div class="card">
   <img class="card-img-top" src="./assets/images/phd_cover.png" alt="Card image cap" height="160">
   <div class="card-body">
-    <h5 class="card-title">PhD defense, Sept. 2025</h5>
+    <h5 class="card-title">PhD defense | Sept. 2025</h5>
     <p class="card-text">
-        Slides coming.
+        <img class="card-img-top" src="./assets/images/phd_content.png" alt="Card image cap" height="160">
     </p>
   </div>
 </div>
@@ -249,7 +249,7 @@ using static call graph instruction visualization</h5>
       <div class="card-body">
         <h5 class="card-title">IEA/AIE, Kitakyushu, Japan | July 2022</h5>
         <a href="https://ieaaie2022.wordpress.com/conference-program/" target="blank"><i class="bi bi-paperclip"></i>Session Chair & Speaker</a>
-        <br/>   
+        <hr/>
         "Malware classification based on graph convolutional neural networks and static call graph features"
       </div>
     </div>
@@ -266,7 +266,7 @@ using static call graph instruction visualization</h5>
       <div class="card-body">
         <h5 class="card-title">IT Days | November 2022</h5>
         <a href="https://www.2022.itdays.ro/presentation/Research-and-Academic-Initiatives-in-Cyber-Security-at-Babe%C8%99-Bolyai-University" target="blank"><i class="bi bi-paperclip"></i>Joint Speaker</a>
-        <br/>   
+        <hr/>
         "Research and Academic Initiatives in Cyber Security at Babeș-Bolyai University"
       </div>
     </div>
@@ -280,29 +280,14 @@ using static call graph instruction visualization</h5>
 
         <div class="card-body">
             <h5 class="card-title">
-            14th Joint Conference on Mathematics and Computer Science | November 2022
+            14th Joint Conference on Mathematics and Computer Science | Nov. 2022
             </h5>
             <a href="https://www.cs.ubbcluj.ro/~macs/2022/" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
-            <br/>
+            <a href="https://www.cs.ubbcluj.ro/~macs/2022/program/macs2022_program.pdf" target="blank"><i class="bi bi-paperclip"></i>Program</a>
+            <hr/>
             "Malware analysis and static call graph generation with Radare2"
-        </div>
-    </div>
-    </div>
-
-    <div class="column">
-    <div class="card">
-        <div style="overflow: hidden; margin: 5px;">
-        <img class="card-img-top" src="https://www.cs.ubbcluj.ro/~macs/2022/img/macs2022.png" alt="Card image cap" height="160">
-        </div>
-
-        <div class="card-body">
-            <h5 class="card-title">
-            14th Joint Conference on Mathematics and Computer Science | November 2022
-            </h5>
-            <a href="https://www.cs.ubbcluj.ro/~macs/2022/" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
-            <br/>
+            <hr/>
             "Network optimization problem applicable for breast cancer screening cost minimization"
-
         </div>
     </div>
     </div>
@@ -316,7 +301,7 @@ using static call graph instruction visualization</h5>
       <div class="card-body">
         <h5 class="card-title">BIP UBB | May 2024</h5>
         <a href="https://cci.ubbcluj.ro/erasmus/regulament-de-functionare/" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
-        <br/>   
+        <hr/>
         "Community detection, graph convolutional nets, image processing, signature extraction in malware analysis"
       </div>
     </div>
@@ -330,9 +315,9 @@ using static call graph instruction visualization</h5>
       </div>
     
       <div class="card-body">
-        <h5 class="card-title">NSS-SocialSec, Abu Dhabi, UAE | November 2024</h5>
+        <h5 class="card-title">NSS-SocialSec, Abu Dhabi, UAE | Nov. 2024</h5>
         <a href="https://nsclab.org/nss-socialsec2024/program.html" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
-        <br/>   
+        <hr/>   
         "Towards a malware family classification model using static call graph instruction visualization"
       </div>
     </div>
