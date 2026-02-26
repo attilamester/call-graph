@@ -323,5 +323,21 @@ using static call graph instruction visualization</h5>
     </div>
     </div>
 
+    <div class="column">
+    <div class="card">
+      <div style="overflow: hidden; margin: 5px;">
+      <img class="card-img-top" src="https://www.ubbcluj.ro/img/Logo-UBB.svg" alt="Card image cap" height="160">   
+      </div>
+    
+      <div class="card-body">
+        <h5 class="card-title">16. MTNE Transylvania | Nov. 2025</h5>
+        <a href="https://www.cs.ubbcluj.ro/~darvay/eme/mtne2025/" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
+        <a href="https://datam1n.github.io/posts/2025-11-28-mtne-2025/" target="blank"><i class="bi bi-paperclip"></i>DataMin</a>
+        <hr/>   
+        "Malware gallery: visualizing the code"
+      </div>
+    </div>
+    </div>
+
 
 </div>
