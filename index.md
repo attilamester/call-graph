@@ -7,15 +7,23 @@ subtitle:
     Authors
     <ul>
         <li>
-            Attila Mester 
-                <a href="https://www.linkedin.com/in/attilamester/"><img src="https://static.licdn.com/sc/h/akt4ae504epesldzj74dzred8" /></a>
-                <a href="https://www.researchgate.net/profile/Attila-Mester-2"><img src="https://c5.rgstatic.net/m/41542880220916/images/favicon/favicon-32x32.png" /></a>
+            dr. Attila Mester
+            &nbsp
+            <a href="https://www.linkedin.com/in/attilamester/"><img src="https://static.licdn.com/sc/h/akt4ae504epesldzj74dzred8" /></a>
+            <a href="https://www.researchgate.net/profile/Attila-Mester-2"><img src="https://c5.rgstatic.net/m/41542880220916/images/favicon/favicon-32x32.png" /></a>
+            <a href="https://scholar.google.com/citations?user=LxED3kQAAAAJ" target="_blank" rel="noopener" title="Google Scholar">
+                <img src="https://scholar.google.com/favicon.ico" width="32" height="32">
+            </a>
         </li>
         <li>
             dr. Zalán Bodó 
-                <a href="http://www.cs.ubbcluj.ro/~zbodo"><img src="https://www.ubbcluj.ro/template/favicon-32x32.png" /></a>                
-                <a href="https://www.linkedin.com/in/zal%C3%A1n-bod%C3%B3-66b915b9/"><img src="https://static.licdn.com/sc/h/akt4ae504epesldzj74dzred8" /></a>
-                <a href="https://www.researchgate.net/profile/Zalan-Bodo"><img src="https://c5.rgstatic.net/m/41542880220916/images/favicon/favicon-32x32.png" /></a>
+            &nbsp &nbsp           
+            <a href="https://www.linkedin.com/in/zal%C3%A1n-bod%C3%B3-66b915b9/"><img src="https://static.licdn.com/sc/h/akt4ae504epesldzj74dzred8" /></a>
+            <a href="https://www.researchgate.net/profile/Zalan-Bodo"><img src="https://c5.rgstatic.net/m/41542880220916/images/favicon/favicon-32x32.png" /></a>
+            <a href="https://scholar.google.com/citations?user=di9KjJ8AAAAJ" target="_blank" rel="noopener" title="Google Scholar">
+                <img src="https://scholar.google.com/favicon.ico" width="32" height="32">
+            </a>
+            <a href="http://www.cs.ubbcluj.ro/~zbodo"><img src="https://www.ubbcluj.ro/template/favicon-32x32.png" /></a>
         </li>
     </ul>
 ---
