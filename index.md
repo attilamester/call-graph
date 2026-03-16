@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research work on malware analyis
+title: Research work on static malware analyis
 home: true
 subtitle:
     <br/>
