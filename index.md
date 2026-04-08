@@ -347,5 +347,20 @@ using static call graph instruction visualization</h5>
     </div>
     </div>
 
+    <div class="column">
+    <div class="card">
+      <div style="overflow: hidden; margin: 5px;">
+      <img class="card-img-top" src="https://cercetare.ubbcluj.ro/wp-content/uploads/2026/03/UBBCore-AI-Competitor.jpg" alt="Card image cap" height="160"
+        style="object-fit: cover; object-position: top; scale: 1.2;">   
+      </div>
+    
+      <div class="card-body">
+        <h5 class="card-title">AI in Threat Intelligence | March 2026</h5>
+        <a href="https://cercetare.ubbcluj.ro/event/ai-competitor-or-support-in-research-2/" target="blank"><i class="bi bi-paperclip"></i>Speaker</a>
+        <hr/>
+      </div>
+    </div>
+    </div>
+
 
 </div>
